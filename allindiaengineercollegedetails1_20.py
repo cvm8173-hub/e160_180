@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sri-venkateshwaraa-college-of-engineering-and-technology-puducherry-pondicherry-66803",
-  "https://www.shiksha.com/college/xavier-institute-of-engineering-mahim-mumbai-59737",
-  "https://www.shiksha.com/college/s-a-engineering-college-thiruverkadu-chennai-42590",
-  "https://www.shiksha.com/college/cmr-institute-of-technology-medchal-hyderabad-46220",
-  "https://www.shiksha.com/college/sanjivani-college-of-engineering-ahmednagar-22923",
-  "https://www.shiksha.com/college/don-bosco-institute-of-technology-bangalore-mysore-road-43062",
-  "https://www.shiksha.com/college/sagi-rama-krishnam-raju-engineering-college-andhra-pradesh-other-21308",
-  "https://www.shiksha.com/college/united-college-of-engineering-and-research-united-group-of-institutions-greater-noida-56175",
-  "https://www.shiksha.com/college/gandhi-institute-for-education-and-technology-bhubaneswar-34643",
-  "https://www.shiksha.com/college/greater-noida-institute-of-technology-32439",
-  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-bareilly-24942",
-  "https://www.shiksha.com/college/st-martin-s-engineering-college-smec-secunderabad-42603",
-  "https://www.shiksha.com/university/mody-university-of-science-and-technology-sikar-54399",
-  "https://www.shiksha.com/college/paavai-engineering-college-namakkal-22086",
-  "https://www.shiksha.com/college/bv-raju-institute-of-technology-hyderabad-20841",
-  "https://www.shiksha.com/college/gyan-ganga-institute-of-technology-and-science-jabalpur-57513",
-  "https://www.shiksha.com/college/saraswati-college-of-engineering-navi-mumbai-42532",
-  "https://www.shiksha.com/university/jagran-lakecity-university-bhopal-38105",
-  "https://www.shiksha.com/college/vishnu-institute-of-technology-vit-bhimavaram-42683",
-  "https://www.shiksha.com/university/indrashil-university-ahmedabad-57333",
+  "https://www.shiksha.com/university/cmr-university-bangalore-47389",
+  "https://www.shiksha.com/college/srinivas-institute-of-technology-srinivas-group-of-colleges-mangalore-52839",
+  "https://www.shiksha.com/college/national-institute-of-electronics-and-information-technology-aurangabad-22172",
+  "https://www.shiksha.com/college/wainganga-college-of-engineering-and-management-nagpur-42701",
+  "https://www.shiksha.com/university/dit-university-admission-office-delhi-46944",
+  "https://www.shiksha.com/college/government-college-of-engineering-kannur-24345",
+  "https://www.shiksha.com/college/dr-s-s-bhatnagar-university-institute-of-chemical-engineering-and-technology-chandigarh-49459",
+  "https://www.shiksha.com/college/sanaka-educational-trust-s-group-of-institutions-durgapur-47251",
+  "https://www.shiksha.com/college/government-college-of-engineering-and-textile-technology-berhampore-murshidabad-55443",
+  "https://www.shiksha.com/college/ujjain-engineering-college-23062",
+  "https://www.shiksha.com/college/indian-naval-academy-kannur-53906",
+  "https://www.shiksha.com/university/sreenidhi-university-hyderabad-238908",
+  "https://www.shiksha.com/college/hindu-college-of-engineering-sonepat-20135",
+  "https://www.shiksha.com/college/sasi-institute-of-technology-and-engineering-west-godavari-52793",
+  "https://www.shiksha.com/university/shivaji-university-kolhapur-25136",
+  "https://www.shiksha.com/college/babu-banarasi-das-northern-india-institute-of-technology-bbdniit-lucknow-1952",
+  "https://www.shiksha.com/college/svce-sri-venkateshwara-college-of-engineering-yelahanaka-bangalore-26993",
+  "https://www.shiksha.com/college/netaji-subhas-institute-of-technology-patna-64925",
+  "https://www.shiksha.com/university/the-apollo-university-chittoor-202871",
+  "https://www.shiksha.com/university/maharana-pratap-university-of-agriculture-and-technology-udaipur-60596",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =161
+    c_count =581
 
     try:
         for base_url in BASE_URL:
