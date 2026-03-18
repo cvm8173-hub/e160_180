@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/cmr-university-bangalore-47389",
-  "https://www.shiksha.com/college/srinivas-institute-of-technology-srinivas-group-of-colleges-mangalore-52839",
-  "https://www.shiksha.com/college/national-institute-of-electronics-and-information-technology-aurangabad-22172",
-  "https://www.shiksha.com/college/wainganga-college-of-engineering-and-management-nagpur-42701",
-  "https://www.shiksha.com/university/dit-university-admission-office-delhi-46944",
-  "https://www.shiksha.com/college/government-college-of-engineering-kannur-24345",
-  "https://www.shiksha.com/college/dr-s-s-bhatnagar-university-institute-of-chemical-engineering-and-technology-chandigarh-49459",
-  "https://www.shiksha.com/college/sanaka-educational-trust-s-group-of-institutions-durgapur-47251",
-  "https://www.shiksha.com/college/government-college-of-engineering-and-textile-technology-berhampore-murshidabad-55443",
-  "https://www.shiksha.com/college/ujjain-engineering-college-23062",
-  "https://www.shiksha.com/college/indian-naval-academy-kannur-53906",
-  "https://www.shiksha.com/university/sreenidhi-university-hyderabad-238908",
-  "https://www.shiksha.com/college/hindu-college-of-engineering-sonepat-20135",
-  "https://www.shiksha.com/college/sasi-institute-of-technology-and-engineering-west-godavari-52793",
-  "https://www.shiksha.com/university/shivaji-university-kolhapur-25136",
-  "https://www.shiksha.com/college/babu-banarasi-das-northern-india-institute-of-technology-bbdniit-lucknow-1952",
-  "https://www.shiksha.com/college/svce-sri-venkateshwara-college-of-engineering-yelahanaka-bangalore-26993",
-  "https://www.shiksha.com/college/netaji-subhas-institute-of-technology-patna-64925",
-  "https://www.shiksha.com/university/the-apollo-university-chittoor-202871",
-  "https://www.shiksha.com/university/maharana-pratap-university-of-agriculture-and-technology-udaipur-60596",
+  "https://www.shiksha.com/university/william-carey-university-shillong-64857",
+  "https://www.shiksha.com/college/p-s-r-engineering-college-virudhunagar-22883",
+  "https://www.shiksha.com/college/satya-institute-of-technology-and-management-vizianagaram-46609",
+  "https://www.shiksha.com/college/puranmal-lahoti-government-polytechnic-college-latur-99785",
+  "https://www.shiksha.com/college/al-ameen-education-medical-foundation-s-college-of-engineering-management-studies-taluka-shirur-pune-47225",
+  "https://www.shiksha.com/college/dr-babasaheb-ambedkar-college-of-engineering-and-research-nagpur-47571",
+  "https://www.shiksha.com/college/aiet-appa-institute-of-engineering-and-technology-gulbarga-42853",
+  "https://www.shiksha.com/college/dr-annasaheb-shinde-college-of-agricultural-engineering-ahmednagar-67021",
+  "https://www.shiksha.com/college/konark-institute-of-science-and-technology-kist-bhubaneswar-24070",
+  "https://www.shiksha.com/college/tasgaonkar-group-of-institutions-raigad-41629",
+  "https://www.shiksha.com/college/lnct-group-of-colleges-bhopal-156717",
+  "https://www.shiksha.com/college/gct-gnanamani-college-of-technology-namakkal-42721",
+  "https://www.shiksha.com/college/university-college-of-engineering-tindivanam-anna-university-villupuram-54758",
+  "https://www.shiksha.com/college/arunai-engineering-college-tamil-nadu-other-24031",
+  "https://www.shiksha.com/college/vaageswari-college-of-engineering-karimnagar-61359",
+  "https://www.shiksha.com/college/kelappaji-college-of-agricultural-engineering-and-technology-kerala-other-29030",
+  "https://www.shiksha.com/college/government-engineering-college-ramanagara-59369",
+  "https://www.shiksha.com/college/rajasthan-college-of-engineering-for-women-rcew-jaipur-36041",
+  "https://www.shiksha.com/college/jspm-s-bhagwant-institute-of-technology-maharashtra-other-63371",
+  "https://www.shiksha.com/college/gates-institute-of-technology-anantapur-22592",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =581
+    c_count =1081
 
     try:
         for base_url in BASE_URL:
