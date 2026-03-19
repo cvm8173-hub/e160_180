@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/william-carey-university-shillong-64857",
-  "https://www.shiksha.com/college/p-s-r-engineering-college-virudhunagar-22883",
-  "https://www.shiksha.com/college/satya-institute-of-technology-and-management-vizianagaram-46609",
-  "https://www.shiksha.com/college/puranmal-lahoti-government-polytechnic-college-latur-99785",
-  "https://www.shiksha.com/college/al-ameen-education-medical-foundation-s-college-of-engineering-management-studies-taluka-shirur-pune-47225",
-  "https://www.shiksha.com/college/dr-babasaheb-ambedkar-college-of-engineering-and-research-nagpur-47571",
-  "https://www.shiksha.com/college/aiet-appa-institute-of-engineering-and-technology-gulbarga-42853",
-  "https://www.shiksha.com/college/dr-annasaheb-shinde-college-of-agricultural-engineering-ahmednagar-67021",
-  "https://www.shiksha.com/college/konark-institute-of-science-and-technology-kist-bhubaneswar-24070",
-  "https://www.shiksha.com/college/tasgaonkar-group-of-institutions-raigad-41629",
-  "https://www.shiksha.com/college/lnct-group-of-colleges-bhopal-156717",
-  "https://www.shiksha.com/college/gct-gnanamani-college-of-technology-namakkal-42721",
-  "https://www.shiksha.com/college/university-college-of-engineering-tindivanam-anna-university-villupuram-54758",
-  "https://www.shiksha.com/college/arunai-engineering-college-tamil-nadu-other-24031",
-  "https://www.shiksha.com/college/vaageswari-college-of-engineering-karimnagar-61359",
-  "https://www.shiksha.com/college/kelappaji-college-of-agricultural-engineering-and-technology-kerala-other-29030",
-  "https://www.shiksha.com/college/government-engineering-college-ramanagara-59369",
-  "https://www.shiksha.com/college/rajasthan-college-of-engineering-for-women-rcew-jaipur-36041",
-  "https://www.shiksha.com/college/jspm-s-bhagwant-institute-of-technology-maharashtra-other-63371",
-  "https://www.shiksha.com/college/gates-institute-of-technology-anantapur-22592",
+  "https://www.shiksha.com/college/government-engineering-college-gangavathi-karnataka-other-68335",
+  "https://www.shiksha.com/college/al-habeeb-college-of-engineering-and-technology-chevella-hyderabad-42716",
+  "https://www.shiksha.com/college/avs-college-of-technology-salem-61599",
+  "https://www.shiksha.com/college/government-college-of-engineering-and-technology-safapora-ganderbal-bandipora-146719",
+  "https://www.shiksha.com/college/new-institute-of-technology-kolhapur-228561",
+  "https://www.shiksha.com/college/m-g-college-of-engineering-thiruvallom-thiruvananthapuram-60513",
+  "https://www.shiksha.com/college/n-s-n-college-of-engineering-and-technology-karur-61519",
+  "https://www.shiksha.com/college/delhi-institute-of-technology-management-and-research-faridabad-63205",
+  "https://www.shiksha.com/college/college-of-agricultural-engineering-sanga-reddy-professor-jayashankar-telangana-state-agricultural-university-telangana-other-106147",
+  "https://www.shiksha.com/college/jan-nayak-ch-devi-lal-memorial-college-of-engineering-jcdcoe-haryana-other-44517",
+  "https://www.shiksha.com/college/rai-technology-university-bangalore-61291",
+  "https://www.shiksha.com/college/koneru-lakshmaiah-education-foundation-bachupally-bachupally-hyderabad-245238",
+  "https://www.shiksha.com/college/laxmi-devi-institute-of-engineering-and-technology-liet-alwar-22743",
+  "https://www.shiksha.com/college/rewa-institute-of-technology-madhya-pradesh-other-60349",
+  "https://www.shiksha.com/college/mahaguru-institute-of-technology-alleppey-147047",
+  "https://www.shiksha.com/college/indianoil-odisha-campus-bhubaneswar-institute-of-chemical-technology-mumbai-156219",
+  "https://www.shiksha.com/college/pavai-college-of-technology-namakkal-61567",
+  "https://www.shiksha.com/college/ana-group-of-institutions-bareilly-63245",
+  "https://www.shiksha.com/college/mgm-college-of-engineering-and-pharmaceutical-sciences-malappuram-147051",
+  "https://www.shiksha.com/college/st-soldier-group-of-institutions-jalandhar-46911",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1081
+    c_count =1461
 
     try:
         for base_url in BASE_URL:
